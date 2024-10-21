@@ -17,8 +17,8 @@ const page = () => {
           <SpecialButton className="p-[6px]" classButton="mt-0" icon={<BackArrow/>}/>
         </Link>
       <div className="min-h-screen rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-        <InfiniteMovingCards data={firstHalf} direction="right" speed="normal" />
-        <InfiniteMovingCards data={secondHalf} direction="left" speed="normal" />
+        <InfiniteMovingCards data={firstHalf} direction="right" speed="fast" />
+        <InfiniteMovingCards data={secondHalf} direction="left" speed="fast" />
 
         <TextRevealCard
           className="mt-8"
